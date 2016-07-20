@@ -6,10 +6,10 @@ import os
 from twython import Twython
 
 #Twitterアカウントの認可情報
-CONSUMER_KEY ='4FA6KqkRGiggbMGJpveVxpGfe'
-CONSUMER_SECRET ='7ceW3x3TLZTBe7oTXkkuict2XIUrrzWg8BDvt5iUukUuusyNdm'
-ACCESS_KEY ='755238478271643648-VaA4SZdp1jAbxXN50GGoxRIEF3K6OM5'
-ACCESS_SECRET ='RIDdtVDhAbc6LDKe88lKIHFORPyRadRkRbfYE3kXiD2hR'
+CONSUMER_KEY ='key'
+CONSUMER_SECRET =key'
+ACCESS_KEY ='key'
+ACCESS_SECRET ='key'
 api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
 
 #Raspbianの制御コマンド（vcgencmd）を実行
